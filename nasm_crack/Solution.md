@@ -24,7 +24,7 @@ This would point to *supersecret* to being the password. The comparison from ear
 
 ![final-result](https://github.com/VJMumphrey/Crackme-Writeups/blob/main/nasm_crack/screenshots/final_result.png)
 
-##Easy Way
+#### Easy Way
 You could also just run strings on the file and get,
 Enter your password: 
 Correct!
