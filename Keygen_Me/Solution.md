@@ -16,7 +16,7 @@ If the condition was met then the key was passed into *check_pw*. In *check_pw* 
 This process was repeated several times with different character values and spots in the key.
 If the checks were met then the success message was printed and a spinning doughnut appeared.
 
-![doughnut]((https://github.com/VJMumphrey/Crackme-Writeups/blob/main/Keygen_Me/screenshots/doughnut.png)
+![doughnut](https://github.com/VJMumphrey/Crackme-Writeups/blob/main/Keygen_Me/screenshots/doughnut.png)
 
 Now that the algorithim is solved, the next step is to create a keygen to generate the keys.
 
