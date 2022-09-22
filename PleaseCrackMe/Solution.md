@@ -17,7 +17,7 @@ Examing the *main* function, it appears to be password checker that generates a 
 
 These are used to build the password and store it into an array.
 
-![generation]https://github.com/VJMumphrey/Crackme-Writeups/blob/main/PleaseCrackMe/screenshots/generation_pic.png
+![generation](https://github.com/VJMumphrey/Crackme-Writeups/blob/main/PleaseCrackMe/screenshots/generation_pic.png)
 
 When broken down, each index of the array of characters is converted to a number. The number supplied by the user is then added to that number. So *a* would be *b*, and *c* would be *d* ... etc. 
 
@@ -25,7 +25,7 @@ After the key is built, the user is asked to input the password so that it can b
 
 If they match the success statement prints to the terminal.
 
-![success_statement]https://github.com/VJMumphrey/Crackme-Writeups/blob/main/PleaseCrackMe/screenshots/success_pic.png
+![success_statement](https://github.com/VJMumphrey/Crackme-Writeups/blob/main/PleaseCrackMe/screenshots/success_pic.png)
 
 ### Keygen:
 I created a password generator/keygen for this just for the sake of being able to automatically creating some. *pass_gen.py* is a simple python script that will generate a password that matches the key that is created. *pass_gen.py* is included with this.
