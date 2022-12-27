@@ -39,7 +39,7 @@ Inorder to find out what the result of *right_input* is then the hidden string n
 
 ![ltrace](https://github.com/VJMumphrey/Crackme-Writeups/blob/main/grandfather_clock/screenshots/ltrace_pic.png)
 
-I took this value and made a decripter. Running a decripter will reverse the stringand get the flag. Passing the flag as an argument provides the success statement.
+I took the value in strcmp and made a decripter. Running a decripter will reverse the stringand get the flag. Passing the flag as an argument provides the success statement.
 
 ![rightInput](https://github.com/VJMumphrey/Crackme-Writeups/blob/main/grandfather_clock/screenshots/rightInput_pic.png)
 
