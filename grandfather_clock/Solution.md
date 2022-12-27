@@ -26,7 +26,7 @@ Starting at main, there is a check on many arguments there are. If the user didn
 
 With *algor* a block of memory of on the heap is allocated inorder to return the resulting eventual string. Then the userinput is manipulated and stored in that blockof memory
 
-![algorithim](https://github.com/VJMumphrey/Crackme-Writeups/blob/main/grandfather_clock/screenshots/algorithim_pic.png)
+![algorithim](https://github.com/VJMumphrey/Crackme-Writeups/blob/main/grandfather_clock/screenshots/algor_pic.png)
 
 It is mixing the values in unique order. It does this by starting at the index of one less than the length of user input. It then adds every odd numbers values by adding then decrementing the index by *-2*. Once it hits *-1* the indexer will change to *0* and increment by *2*. This then adds all the evens in order up to index length - 2. It returns the pointer to the memory on the heap.
 
@@ -37,7 +37,7 @@ If the they match then *final_func* is called with the *right_input*. If anthing
 
 Inorder to find out what the result of *right_input* is then the hidden string needs to be found. I did through runnning random inputs through ltrace
 
-![ltrace](https://github.com/VJMumphrey/Crackme-Writups/blob/main/grandfather_clock/screenshots/ltrace_pic.png)
+![ltrace](https://github.com/VJMumphrey/Crackme-Writeups/blob/main/grandfather_clock/screenshots/ltrace_pic.png)
 
 I took this value and made a decripter. Running a decripter will reverse the stringand get the flag. Passing the flag as an argument provides the success statement.
 
